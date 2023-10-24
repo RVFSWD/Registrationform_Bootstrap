@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: raleway, sans-serif;
+    /* background: #d3eeee; */
+    color: #fff;
+    line-height: 1.8;
+    background: url(./img/vintagelambo1.jpg) no-repeat center center/cover;
+    height: 150vh;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.form-box {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+}
+
+.form-box h1,
+.form-box p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-box .form-group {
+    margin-top: 15px;
+}
+
+.form-box .form-group label {
+    display: block;
+    color: #666;
+}
+
+.form-box .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+
+.form-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #37a08e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #37a08e;
+}
+
+.form-box .bottom-text {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+.form-box .form-wrap {
+    margin-top: 15px;
+}
+
+.form-box .form-wrap input {
+    padding: 10px;
+}
+
+
